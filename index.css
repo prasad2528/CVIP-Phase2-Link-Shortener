@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg-container {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(255, 255, 255, 0.9747548677674195) 42%, rgba(0, 212, 255, 1) 91%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.card-container {
+    width: 80%;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 114, 121, 0.9747548677674195) 35%, rgba(0, 212, 255, 1) 100%);
+    background-size: cover;
+    padding: 60px 10px;
+    text-align: center;
+    box-shadow: 0px 4px 10px 10px #fff;
+    margin-top: 50px;
+}
+
+.heading {
+    font-family: ui-serif;
+    color: orange;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+input {
+    border-radius: 10px;
+    height: 30px;
+    width: 60%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px;
+    outline: 0;
+}
+
+button {
+    padding: 5px 0 5px;
+    color: #fff;
+    height: 40px;
+    width: 130px;
+    border: 0;
+    font-size: 16px;
+    outline: 0;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: purple;
+}
+
+@media screen and (max-width:600px) {
+    input {
+        height: 30px;
+        padding: 10px;
+    }
+    .heading {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    button {
+        height: 30px;
+        font-size: 10px;
+        padding: 5px 0;
+        width: 30%;
+    }
+}
